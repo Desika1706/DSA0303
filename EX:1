@@ -1,0 +1,8 @@
+import re 
+text="new dog"
+word=r'\bdog*\b'
+match1=re.findall(word,text)
+if match1:
+  print("match found")
+  for a in match1:
+    print(a)
